@@ -3,7 +3,7 @@
 </p>
 
 <h3 align="center">
-Local, privacy-first structured data extraction powered by AI.
+Local, privacy-first AI training infrastructure for regulated environments.
 </h3>
 
 <p align="center">
@@ -14,16 +14,18 @@ Local, privacy-first structured data extraction powered by AI.
 
 ## What is Xtractyl?
 
-**Xtractyl** is a local-first, human-in-the-loop AI system designed to extract
-**structured data from unstructured PDF documents** — without relying on cloud
-services or external APIs.
+**Xtractyl** is a local-first, human-in-the-loop AI pipeline that extracts
+**structured, human-validated data from unstructured PDF documents** — and uses
+it to build domain-specific AI models.
 
-It is built for domains where **data sensitivity, auditability, and control**
-matter more than raw automation, such as healthcare, life sciences, and public
-administration.
+It is designed for environments where **data privacy, auditability, and
+regulatory transparency** are non-negotiable — such as healthcare, life
+sciences, and other compliance-driven fields.
 
-Xtractyl focuses on **turning document collections into structured, analyzable
-datasets**, while keeping humans in the loop and all data processing local.
+Xtractyl is built around the insight that structured data extraction is
+primarily an **evaluation problem**, not a technical one. The pipeline is
+designed to make model behavior measurable, comparable, and improvable —
+while keeping all data processing fully local.
 
 ---
 
@@ -38,8 +40,14 @@ datasets**, while keeping humans in the loop and all data processing local.
 - 🧩 **Modular & auditable architecture**  
   Designed as an extensible pipeline with clear data flow and review points.
 
-- 📊 **From documents to databases**  
-  Built to generate structured, group-level insights from large PDF collections.
+- 📊 **Evaluation-first development**  
+  Built-in metrics, model comparison, and drift monitoring ensure that
+  performance is measurable and improvable.
+
+- 📋 **Regulatory transparency**  
+  Developed with software quality documentation in accordance with the
+  principles of IEC 62304 and ISO 14971 — to support organizations building
+  regulated AI systems on top of Xtractyl.
 
 ---
 
@@ -47,18 +55,21 @@ datasets**, while keeping humans in the loop and all data processing local.
 
 - ❌ Not a cloud SaaS  
 - ❌ Not a black-box extraction tool  
-- ❌ Not a medical device  
+- ❌ Not a certified medical device  
+- ❌ Not a replacement for human domain expertise  
 
-Xtractyl is a **research-oriented system** exploring how privacy-preserving,
-auditable AI pipelines can be built for regulated environments.
+Xtractyl is a **research-only tool** exploring how privacy-preserving,
+auditable AI training pipelines can be built for regulated environments.
+The existence of quality documentation does not constitute regulatory
+certification.
 
 ---
 
 ## Project Status
 
 Xtractyl is an **active work in progress**.  
-Core extraction and review workflows are implemented, while evaluation,
-comparison, and fine-tuning components are under development.
+Core extraction, annotation, review, and evaluation workflows are implemented.
+Fine-tuning is planned as the next major milestone.
 
 The project is intentionally developed in the open to document architectural
 decisions and trade-offs.
@@ -68,14 +79,15 @@ decisions and trade-offs.
 ## Repositories
 
 ➡️ **Main project repository**  
-https://github.com/Xtractyl/Xtractyl
+https://github.com/Xtractyl/xtractyl
 
 ---
 
 ## Licensing
 
 Xtractyl is released under a **non-commercial license**.  
-Commercial use requires explicit permission from the project owners.
+Commercial use — including use as infrastructure for regulated AI systems —
+requires explicit permission from the project owners.
 
 ---
 
